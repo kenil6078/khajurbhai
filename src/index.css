@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+*::selection{
+          background-color: #EF9D71;
+}
+body{
+          overflow-x: hidden;
+}
+
+
+
+
