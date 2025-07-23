@@ -77,7 +77,7 @@ const Page1 = () => {
           <h1>we buildings big ideas. software. Apps. Tools. For real People. Real lives.</h1>
         </div>
        <div style={{clipPath: "circle(100% at center)"}} ref={imageRef} className="vdodiv w-full h-full absolute top-0 left-0 z-3 bg-black overflow-hidden">
-        <img className='w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src="./public/new-banner-1.jpg" alt="" />
+        <img className='w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src="/new-banner-1.jpg" alt="" />
        </div>
         <div className="marquee w-full h-screen relative overflow-hidden">
           <div className='heading absolute top-[7%] left-1/2 -translate-x-1/2 w-60 text-center'>
