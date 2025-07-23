@@ -43,7 +43,7 @@ const ParticalCursor = () => {
       trail.current.push({ x: mouse.current.x, y: mouse.current.y });
 
       // Keep trail length
-      if (trail.current.length > 50) trail.current.shift();
+      if (trail.current.length > 20) trail.current.shift();
 
       // Draw trail
       trail.current.forEach((p, i) => {
