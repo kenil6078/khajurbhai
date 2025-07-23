@@ -60,7 +60,7 @@ const Page3 = () => {
           </svg>
         </div>
         <div className="right w-[50%] h-full flex flex-col gap-[2rem] mt-[18rem]">
-          <h1 className='text-center text-[3.4rem] text-white font-bold tracking-tight mt-[2rem] '>The Story of Khajurbhai Singtel</h1>
+          <h1 className='text-center text-[3.4rem] text-white font-bold tracking-tight mt-[2rem] font-[Helvetica_Now_Display] '>The Story of Khajurbhai Singtel</h1>
           <h4 className='text-center text-[2.6rem] text-white font-medium'>In the heart of Gujarat,</h4>
           <p className='w-[80%] text-white font-medium text-center ml-[4rem] text-[26px]'>where traditions meet innovation, a humble yet profound journey began. Nitin Jani, fondly known as Khajurbhai, has always been a symbol of kindness, resilience, and dedication. From building homes for the homeless to spreading joy through his social work, Khajurbhai's name has become synonymous with trust and compassion.</p>
         </div>

@@ -20,7 +20,7 @@ const App = () => {
   return (
     <>
        <Loader />
-      <main className='w-full font-[PP_Neue_Machina] px-[0.4rem] py-[0.2rem]'>
+      <main className='w-full font-[PP_Neue_Machina] px-[0.4rem] py-[0.2rem] bg-[#FEE685]'>
         <ParticalCursor/>
         <Page1 />
         <Penut />

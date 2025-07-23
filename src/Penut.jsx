@@ -31,7 +31,7 @@ const Penut = () => {
     >
       <div style={{ marginTop: '100px', width: '50vw', height: '900px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
         <div style={{ position: 'absolute', zIndex: 10, top: '6rem', left: '9rem', width: '100%', height: '100%' }}>
-          <h1 style={{ color: '#fff', fontSize: '7rem', fontWeight: 'bold' }}>Peanuts</h1>
+          <h1 style={{ color: '#fff', fontSize: '7rem', fontWeight: 'bold', fontFamily:'Helvetica Now Display' }}>Peanuts</h1>
         </div>
         <Canvas
           camera={{ position: [0, 10, 20], fov: 5 }}

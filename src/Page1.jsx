@@ -254,7 +254,7 @@ const Page1 = () => {
                     </div>
                     <div className='w-[60%] text-center relative'>
                       <h3 className='absolute top-0 left-0 -translate-y-1/2 -translate-x-1/3 w-1/3 text-left text-[1.5rem] font-semibold leadind-7 tracking-tight'>we're on a mission to impact as many lives as possible and build a better company while we do it. Here's our process.</h3>
-                      <h1 className='font-bold text-[12rem] tracking-tighter'>1.75M</h1>
+                      <h1 className='font-bold text-[12rem] tracking-tighter font-[Helvetica_Now_Display]'>1.75M</h1>
                       <h3 className='text-4xl leading-none tracking-tight'>Real people - real lives - we have we have built products and solutions for.</h3>
 
                     </div>

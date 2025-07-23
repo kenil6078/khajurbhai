@@ -9,26 +9,31 @@ const teamMembers = [
     number: '01',
     name: 'Dr. Nitin Jani',
     role: 'SOCIAL WORKER / CEO',
+    img:'./khajur-1.jpg'
   },
   {
     number: '02',
     name: 'Dr. Tarun Jani',
     role: 'CO-FOUNDER',
+    img:'./khajur-2.jpg'
   },
   {
     number: '03',
     name: 'Mahesh Dada',
     role: 'SOCIAL WORKER',
+    img:'./khajur-3.jpg'
   },
   {
     number: '04',
     name: 'Dr. Vishal Bhatt',
     role: 'PRESIDENT',
+    img:'./khajur-4.jpg'
   },
   {
     number: '05',
     name: 'Dr. Agrawal',
     role: 'SOCIAL ACTIVE WORKER',
+    img:'./khajur-5.jpg'
   },
 ];
 
@@ -113,9 +118,9 @@ const Page4 = () => {
 
   return (
     <>
-      <div className="teamsection bg-white text-black py-20">
-        <h1 className="text-center font-medium text-8xl tracking-tight">Our Team</h1>
-        <div className="list w-full px-10 mt-16" ref={listRef}>
+      <div className="teamsection text-black py-20 bg-[#FEE685]">
+        <h1 className="text-center font-medium text-8xl tracking-tight text-white">Our Team</h1>
+        <div className="list w-full px-10 mt-16 text-white" ref={listRef}>
           {teamMembers.map((member,index) => (
             <div
               className="listelem w-full py-10 border-b-2 border-black relative"
@@ -128,9 +133,11 @@ const Page4 = () => {
                 </div>
                 <h3 className="text-3xl">{member.role}</h3>
               </div>
-              <div className="picture pointer-events-none opacity-0 w-60 h-60 overflow-hidden rounded-full bg-red-400 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+              <div className="picture pointer-events-none opacity-0 w-60 h-60 overflow-hidden rounded-full bg-red-400 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <img className="w-full h-full object-cover" src={member.img} alt="" />
+              </div>
               <div
-                className="bluelayer w-full h-full bg-blue-500 text-white absolute z-[2] bottom-0 left-0"
+                className="bluelayer w-full h-full bg-blue-500 absolute z-[2] bottom-0 left-0"
                 ref={el => member.bluelayerRef = el}
                 onMouseEnter={e => {
                   if (member.bluelayerRef) {
@@ -162,7 +169,7 @@ const Page4 = () => {
         </div>
       </div>
 
-      <div className="para w-full h-[70vh] flex items-center justify-center">
+      <div className="para w-full h-[70vh] mt-[2rem] flex items-center justify-center bg-[#FEE685] text-white">
         <div className="text w-[70%] flex flex-col items-center justify-center">
           <h3
             ref={paraRef}
@@ -176,7 +183,9 @@ const Page4 = () => {
             tradition, and the love of a land that nourishes us all.
           </h3>
           <div className="pers flex flex-col items-center justify-center mt-10 gap-3">
-            <div className="image w-32 h-32 overflow-hidden rounded-full bg-red-600" />
+            <div className="image w-32 h-32 overflow-hidden rounded-full bg-red-600">
+              <img className='h-full w-full object-cover' src="./khajur-1.jpg" alt="" />
+              </div>
             <h1 className="text-3xl font-medium">Nitin Jani</h1>
             <h3 className="text-xl">Product Manager @ Social-Worker</h3>
           </div>
